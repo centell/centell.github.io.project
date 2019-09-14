@@ -25,7 +25,7 @@
           </span>
         </code>
         <code>
-          <span class="font-white">name: Centell</span>
+          <span class="font-white">name: Kim Chan joong</span>
         </code>
         <code>
           <span class="font-white">job: web developer</span>
@@ -45,21 +45,21 @@
         <code class="ls">
           <span class="font-white">javascript</span>
           <span class="font-white">node.js</span>
-          <span class="font-white">mysql</span>
-          <span class="font-white">tensorflow</span>
-          <span class="font-white">vue.js</span>
           <span class="font-white">linux</span>
-          <span class="font-white">swift</span>
+          <span class="font-white">mysql</span>
+          <span class="font-white">vue.js</span>
           <span class="font-white">AWS</span>
+          <span class="font-white">tensorflow</span>
           <span class="font-white">laravel</span>
         </code>
         <!--personal projects-->
         <code>
           <span class="font-sky-blue">centell.github.io</span>
-          $ <span class="font-green">ls</span> <span class="font-white">personal_projects</span>
+          $ <span class="font-green">ls </span> <span class="font-white">personal_projects</span>
         </code>
         <code class="ls">
           <span class="font-sky-blue">rlidea.com</span>
+          <span class="font-sky-blue">pokedex.info</span>
           <span class="font-sky-blue">create-element.js</span>
           <span class="font-sky-blue">grid-system.css</span>
         </code>
