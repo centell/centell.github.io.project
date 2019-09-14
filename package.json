@@ -6,12 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "deploy": "./deploy.sh",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit",
-    "deploy": "./deploy.sh"
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "semantic-ui-vue": "^0.8.1",
     "vue": "^2.6.10",
     "vue-headful": "^2.0.1",
     "vue-router": "^3.0.3",
