@@ -1,1 +1,9 @@
-@import url('./app/common.css');
+@import url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/stylesheets/NotoSansKR-Hestia.css);
+@import './../../../node_modules/grid-system.css/dist/grid-system.min.css';
+@import "./app/normalize.css";
+@import "./app/navigation.css";
+
+body {
+  font-family: 'Noto Sans Korean', sans-serif;
+}
+

@@ -1,25 +1,11 @@
 <template>
   <div id="app">
     <vue-headful v-bind="meta"/>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <navigation />
     <router-view/>
+    <portal-target name="semantic-ui-vue" />
   </div>
 </template>
-
-<!--<template>-->
-<!--  <div id="app">-->
-<!--    <vue-headful v-bind="meta" />-->
-
-<!--    <component v-bind:is="layout">-->
-<!--      <router-view />-->
-<!--    </component>-->
-
-<!--    <portal-target name="semantic-ui-vue" />-->
-<!--  </div>-->
-<!--</template>-->
 
 <script>
 export default
@@ -27,10 +13,15 @@ export default
   data() {
     return {
       meta: {
-        title: "Centell's resume",
+        title: 'centell.github.io',
         url: '/',
       },
     };
+  },
+  watch: {
+    '$i18n.locale': function (v) {
+      this.$cookie.set('language', v);
+    },
   },
 };
 </script>
