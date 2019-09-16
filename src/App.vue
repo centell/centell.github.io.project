@@ -2,8 +2,8 @@
   <div id="app">
     <vue-headful v-bind="meta"/>
     <navigation />
+<!--    <language-selector />-->
     <router-view/>
-    <portal-target name="semantic-ui-vue" />
   </div>
 </template>
 

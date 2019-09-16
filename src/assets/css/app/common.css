@@ -1,0 +1,14 @@
+/* pc */
+@media only screen and (min-width: 769px) {
+  .content {
+    margin: 40px;
+  }
+}
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .content {
+    margin: 20px;
+  }
+}
+
+/*# sourceMappingURL=common.css.map */

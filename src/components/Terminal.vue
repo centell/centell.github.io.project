@@ -25,9 +25,6 @@
           </span>
         </code>
         <code>
-          <span class="font-white">name: Kim Chan joong</span>
-        </code>
-        <code>
           <span class="font-white">job: web developer</span>
         </code>
         <code>

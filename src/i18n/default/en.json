@@ -1,0 +1,13 @@
+{
+  "language": "English",
+  "flag": "en",
+  "menu": {
+    "home": "home",
+    "resume": "resume",
+    "portfolio": "portfolio",
+    "about": "about"
+  },
+  "words": {
+    "language": "language"
+  }
+}

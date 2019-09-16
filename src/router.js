@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
+import Resume from './views/Resume.vue';
+import Portfolio from './views/Portfolio.vue';
 
 Vue.use(Router);
 
@@ -12,8 +14,15 @@ export default new Router({
       path: '/',
       name: 'home',
       component: Home,
-    },
-    {
+    }, {
+      path: '/resume',
+      name: 'resume',
+      component: Resume,
+    }, {
+      path: '/portfolio',
+      name: 'portfolio',
+      component: Portfolio,
+    }, {
       path: '/about',
       name: 'about',
       // route level code-splitting

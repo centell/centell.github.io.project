@@ -14,7 +14,6 @@
     "core-js": "^2.6.5",
     "grid-system.css": "^1.0.0",
     "portal-vue": "^2.1.6",
-    "semantic-ui-vue": "^0.8.1",
     "vue": "^2.6.10",
     "vue-cookie": "^1.1.4",
     "vue-headful": "^2.0.1",
