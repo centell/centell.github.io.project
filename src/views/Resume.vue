@@ -1,5 +1,5 @@
 <template>
-  <div class="resume content">
+  <div id="resume" class="content">
     <h1>{{ $t('menu.resume') }}</h1>
     <TextBox v-bind="job"/>
   </div>
