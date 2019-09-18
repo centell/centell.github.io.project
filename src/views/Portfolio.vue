@@ -1,5 +1,23 @@
 <template>
   <div id="portfolio" class="content">
-    <h1>{{ $t('menu.portfolio') }}</h1>
+    <TitleBox v-bind="title"/>
   </div>
 </template>
+
+<script>
+import TitleBox from '@/components/TitleBox.vue';
+
+export default {
+  data() {
+    return {
+      title: {
+        title: this.$t('menu.portfolio'),
+      },
+    };
+  },
+  name: 'home',
+  components: {
+    TitleBox,
+  },
+};
+</script>

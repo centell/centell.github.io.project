@@ -1,8 +1,10 @@
 <template>
-  <div class="text-box">
-    <h2>{{ title }}</h2>
-    <div>
-      {{ content }}
+  <div class="text-box grid-row">
+    <div class="grid-lg-2 grid-md-2">
+      <h2>{{ title }}</h2>
+    </div>
+    <div class="grid-lg-10 grid-md-10 ct">
+      <h4>{{ content }}</h4>
     </div>
   </div>
 </template>
@@ -18,18 +20,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  h3 {
-    margin: 40px 0 0;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  li {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  a {
-    color: #42b983;
+  .text-box {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    a {
+      color: #42b983;
+    }
+    .ct {
+      margin-top: 5px;
+    }
   }
 </style>

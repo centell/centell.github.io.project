@@ -11,8 +11,8 @@
 <!--    <language-selector />-->
 <!--    <router-view/>-->
     <home />
-    <portfolio />
     <resume />
+    <portfolio />
     <about />
   </div>
 </template>

@@ -2,7 +2,6 @@
 @import './../../../node_modules/grid-system.css/dist/grid-system.min.css';
 /*@import './../../../node_modules/semantic-ui-css/semantic.min.css';*/
 @import "./app/normalize.css";
-@import "./app/navigation.css";
 @import "./app/language-selector.css";
 @import "./app/common.css";
 
