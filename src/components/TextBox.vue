@@ -1,9 +1,9 @@
 <template>
-  <div class="text-box grid-row">
-    <div class="grid-lg-2 grid-md-2">
+  <div class="text-box grid-row left-space">
+    <div class="grid-lg-3 grid-md-3">
       <h2>{{ title }}</h2>
     </div>
-    <div class="grid-lg-10 grid-md-10 ct">
+    <div class="grid-lg-9 grid-md-9 ct">
       <h4>{{ content }}</h4>
     </div>
   </div>

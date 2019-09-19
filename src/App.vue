@@ -12,6 +12,7 @@
 <!--    <router-view/>-->
     <home />
     <resume />
+    <experience />
     <portfolio />
     <about />
   </div>

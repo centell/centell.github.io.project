@@ -4,6 +4,7 @@
   "menu": {
     "home": "첫 화면",
     "resume": "소개",
+    "experience": "경험",
     "portfolio": "포트폴리오",
     "about": "이 사이트에 대하여"
   },
@@ -12,18 +13,71 @@
     "job": "직무",
     "experience": "경험",
     "tools": "도구",
-    "frameworks": "프레임워크",
-    "db": "데이터베이스",
-    "os": "OS",
     "summary": "요약",
-    "history": "성장과정"
+    "history": "성장과정",
+    "technologies": "기술",
+    "usedTechnologies": "사용된 기술",
+    "markup": "마크업",
+    "db": "데이터베이스 및 ORM",
+    "os": "OS",
+    "frameworks": "프레임워크",
+    "backend": "백엔드",
+    "frontend": "프론트앤드",
+    "network": "네트워크 및 크롤링",
+    "code": "코드 관리",
+    "extra": "기타"
   },
   "resume": {
     "job": "소프트웨어 개발 / 웹 개발",
-    "summary": "논리와 수학적 사고에 익숙하며, 새로운 지식이나 기술을 습득하는데 자신이 있습니다. 주로 서버 및 백엔드 개발을 담당하며 프론트엔드 개발에도 익숙합니다.",
+    "summary": "주로 서버 및 백앤드 개발을 담당하며 프론트 개발까지 가능한 풀스택 지향 개발자입니다. 클라우드, Docker 등을 이용한 아키텍팅 등 전반적인 웹 개발 영역을 경험했습니다. 논리와 수학적 사고에 익숙하며, 새로운 지식이나 기술을 습득하는데 자신이 있습니다.",
     "history": "어릴 때 부터 웹 기술에 관심을 가져 2001년 부터 취미로서 php를 이용한 홈페이지를 만들고, 최신 IT 동향을 살피는 등 지속적으로 IT 기술에 관심을 가져왔습니다. 과학에 뜻이 있어 물리학과에 진학하여 학부 연구원으로서 실험 장비를 개발하는 프로젝트에 참여하여 프로그래밍을 시작하고, 이 시기에 데이터과학 및 프로그래밍에 흥미를 느껴 개발자로 진로를 결정하였습니다."
   },
   "tech": {
     "mySQL": "mySQL"
+  },
+  "portfolio": {
+    "cookie": "쿠키 프로젝트",
+    "company": "사내 프로젝트",
+    "createElement": {
+      "title": "create-element.js",
+      "descriptions": [
+        "복잡한 HTML element 들의 가독성 및 재사용성을 위해 개발한 오픈소스 프로젝트."
+      ],
+      "techs": ["javascript", "DOM"],
+      "url": "https://www.npmjs.com/package/create-element.js",
+      "image_url": "/assets/images/1200px-Npm-logo.svg.png"
+    },
+    "naverMessageHelper": {
+      "title": "Naver Message Helper",
+      "descriptions": [
+        "특정 키워드로 검색되는 네이버 블로그 유저들의 아이디를 수집하는 프로그램.",
+        "헬스장에서 홍보용 쪽지를 보내는데 시간이 너무 많이 드는 것을 소호하여 선물삼아 개발",
+        "Electron을 적용하여 Windows에서 실행 가능한 어플리케이션으로 개발함."
+      ],
+      "techs": ["Electron", "Vue.js", "javascript"],
+      "url": "",
+      "image_url": ""
+    },
+    "pokedex": {
+      "title": "pokedex.info(개발중)",
+      "descriptions": [
+        "게임 포켓몬스터의 정보 사이트",
+        "다수의 테이블을 사용하는 서비스를 구축해보고자 시작.(97여 개의 테이블이 사용됨)",
+        "docker-compose.yml을 이용한 개발 환경 공유",
+        "git을 이용한 버전 관리",
+        "github, Trello 등 적극적인 협업도구 사용",
+        "express 기반의 백앤드 프로젝트와 Vue-cli 기반으 프론트앤드 프로젝트를 구분한 마이크로 아키텍팅 구조",
+        "puppeteer 를 이용하여 정보 크롤링",
+        "확장성과 i18n을 고려한 DB 설계",
+        "sequelize 를 이용한 테이블 스키마 버전관리 및 ORM을 이용한 쿼리"
+      ],
+      "techs": ["node.js", "electron", "Vue.js", "Docker", "mariaDB", "AWS", "git"],
+      "url": "",
+      "image_url": ""
+    }
+  },
+  "contact": {
+    "reqest": "더 자세한 이력을 원하시면 다음 이메일로 연락 부탁드립니다.",
+    "email": "devcjkim@gmail.com"
   }
 }

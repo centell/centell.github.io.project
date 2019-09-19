@@ -15,7 +15,7 @@ import Home from './views/Home.vue';
 import About from './views/About.vue';
 import Portfolio from './views/Portfolio.vue';
 import Resume from './views/Resume.vue';
-
+import Experience from './views/Experience.vue';
 
 Vue.use(VueCookie);
 Vue.use(VueI18n);
@@ -30,6 +30,7 @@ Vue.component('home', Home);
 Vue.component('about', About);
 Vue.component('portfolio', Portfolio);
 Vue.component('resume', Resume);
+Vue.component('experience', Experience);
 
 Vue.config.productionTip = false;
 

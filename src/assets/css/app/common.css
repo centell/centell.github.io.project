@@ -4,6 +4,9 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+#app h4 {
+  font-size: 18px;
+}
 
 #nav {
   padding-top: 15px;
@@ -29,20 +32,12 @@
 }
 
 /* background colors */
-#home {
-  background-color: #eeeeee;
-}
-
 #resume {
-  background-color: #cccccc;
+  background-color: #eeeeee;
 }
 
 #portfolio {
   background-color: #eeeeee;
-}
-
-#about {
-  background-color: #cccccc;
 }
 
 /* pc */
@@ -54,6 +49,10 @@
   #home {
     padding: 50px 0 8px 0;
   }
+
+  .left-space {
+    padding-left: 15px;
+  }
 }
 /* mobile */
 @media only screen and (max-width: 768px) {
@@ -64,6 +63,51 @@
   #home {
     margin: 80px 20px 20px 20px;
   }
+
+  .left-space {
+    padding-left: 10px;
+  }
+}
+/* card */
+.card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 30px 0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.portfolio-box {
+  padding: 10px 30px 20px 30px;
+}
+.portfolio-box .project-title {
+  font-size: 30px;
+}
+.portfolio-box .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.portfolio-box .techs {
+  font-size: 18px;
+}
+
+#about .description {
+  font-size: 20px;
+  margin: 30px;
+}
+#about .email {
+  padding: 40px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tag-box {
+  background-color: #797979;
+  border-radius: 6px;
+  color: #eeeeee;
+  font-weight: bold;
+  padding: 0 15px;
+  margin: 0 5px;
 }
 
 /*# sourceMappingURL=common.css.map */

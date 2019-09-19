@@ -1,19 +1,23 @@
-@import "./app.css";
+.terminal {
+  @import "./app.css";
+}
 @media only screen and (max-width: 768px) {
-  .title-desktop {
+  .terminal .title-desktop {
     display: none;
+  }
+  .terminal code .list {
+    display: block;
   }
 }
 @media only screen and (min-width: 769px) {
-  section {
+  .terminal section {
     margin: 50px;
   }
-
-  .title-mobile {
+  .terminal .title-mobile {
     display: none;
   }
 }
-section {
+.terminal section {
   background-color: #2C2F2F;
   color: #727674;
   display: flex;
@@ -24,17 +28,16 @@ section {
   border-radius: 6px;
   overflow: hidden;
 }
-
-header {
+.terminal header {
   border-bottom: 1px solid #4D4C4D;
   font-size: 16px;
   text-align: center;
   padding: 6px;
 }
-header .buttons {
+.terminal header .buttons {
   position: absolute;
 }
-header .buttons .red {
+.terminal header .buttons .red {
   background-color: #E94B35;
   border-radius: 100%;
   width: 15px;
@@ -42,7 +45,7 @@ header .buttons .red {
   margin: 0 auto;
   display: inline-block;
 }
-header .buttons .yellow {
+.terminal header .buttons .yellow {
   background-color: #f0f000;
   border-radius: 100%;
   width: 15px;
@@ -50,7 +53,7 @@ header .buttons .yellow {
   margin: 0 auto;
   display: inline-block;
 }
-header .buttons .green {
+.terminal header .buttons .green {
   background-color: #1AAF5C;
   border-radius: 100%;
   width: 15px;
@@ -58,39 +61,35 @@ header .buttons .green {
   margin: 0 auto;
   display: inline-block;
 }
-
-nav {
+.terminal nav {
   border-bottom: 1px solid #4D4C4D;
 }
-nav ul {
+.terminal nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-nav ul li {
+.terminal nav ul li {
   background-color: #252929;
   color: #727674;
   text-align: center;
   padding: 5px 0;
 }
-nav ul li a {
+.terminal nav ul li a {
   color: #727674;
 }
-nav ul li:hover {
+.terminal nav ul li:hover {
   color: #fff;
   cursor: pointer;
 }
-
-.selected {
+.terminal .selected {
   background-color: #323634;
   color: #fff;
 }
-
-.right-border {
+.terminal .right-border {
   position: relative;
 }
-
-.right-border:after {
+.terminal .right-border:after {
   content: "";
   display: block;
   position: absolute;
@@ -100,46 +99,37 @@ nav ul li:hover {
   height: 100%;
   background: #4D4C4D;
 }
-
-main {
+.terminal main {
   padding: 4px;
   min-height: 400px;
 }
-main code {
+.terminal main code {
   display: block;
 }
-
-.font-sky-blue {
+.terminal .font-sky-blue {
   color: #51D0DD;
 }
-
-.font-blue {
+.terminal .font-blue {
   color: #719BFF;
 }
-
-.font-red {
+.terminal .font-red {
   color: #ED5E3F;
 }
-
-.font-green {
+.terminal .font-green {
   color: #49E690;
 }
-
-.font-white {
+.terminal .font-white {
   color: #F4F4F5;
 }
-
-.ls span {
+.terminal .ls span {
   padding-right: 50px;
 }
-
-a {
+.terminal a {
   color: #fff;
   text-decoration: none;
   outline: none;
 }
-
-a:hover, a:active {
+.terminal a:hover, .terminal a:active {
   color: #fff;
   text-decoration: none;
   outline: none;
