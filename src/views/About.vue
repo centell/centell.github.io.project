@@ -3,7 +3,7 @@
     <TitleBox v-bind="title"/>
     <TextBox v-bind="tech"/>
     <div class="description">
-      <span>{{ $t('contact.request' )}}</span>
+      <span>{{ req }}</span>
       <br />
       <div class="grid__pos-center email">
         {{ email }}
@@ -32,6 +32,7 @@ export default {
         content: 'Vue-cli/3.11.0, SCSS, i18n, shell script(bash), git, github pages',
       },
       email: this.$t('contact.email'),
+      req: this.$t('contact.request'),
     };
   },
   name: 'about',

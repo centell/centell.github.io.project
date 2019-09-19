@@ -6,7 +6,7 @@
       </div>
       <div>
         <div>
-          <span v-bind:key="tech" v-for="tech in techs" class="tag-box">{{ tech }}</span>
+          <div class="tag-box" v-bind:key="tech" v-for="tech in techs">{{ tech }}</div>
         </div>
       </div>
       <div>
