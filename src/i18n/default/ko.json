@@ -39,7 +39,7 @@
     "cookie": "쿠키 프로젝트",
     "company": "사내 프로젝트",
     "createElement": {
-      "title": "create-element.js",
+      "title": "[OpenSource] create-element.js",
       "descriptions": [
         "복잡한 HTML element 들의 가독성 및 재사용성을 위해 개발한 오픈소스 프로젝트."
       ],
@@ -48,7 +48,7 @@
       "image_url": "/assets/images/1200px-Npm-logo.svg.png"
     },
     "naverMessageHelper": {
-      "title": "Naver Message Helper",
+      "title": "[Windows App] Naver Message Helper",
       "descriptions": [
         "특정 키워드로 검색되는 네이버 블로그 유저들의 아이디를 수집하는 프로그램.",
         "헬스장에서 홍보용 쪽지를 보내는데 시간이 너무 많이 드는 것을 소호하여 선물삼아 개발",
@@ -59,7 +59,7 @@
       "image_url": ""
     },
     "pokedex": {
-      "title": "pokedex.info(개발중)",
+      "title": "[Web Site] pokedex.info(개발중)",
       "descriptions": [
         "게임 포켓몬스터의 정보 사이트",
         "다수의 테이블을 사용하는 서비스를 구축해보고자 시작.(97여 개의 테이블이 사용됨)",

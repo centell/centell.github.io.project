@@ -7,23 +7,23 @@
           <div class="yellow"></div>
           <div class="green"></div>
         </div>
-        <div class="title-desktop">centell.github.io ─ centell@Centell-Github-pages</div>
-        <div class="title-mobile">centell.github.io</div>
+        <div class="title-desktop">devcjkim.github.io ─ devcjkim@devcjkim-Github-pages</div>
+        <div class="title-mobile">devcjkim.github.io</div>
       </header>
       <nav>
         <ul class="grid-row">
           <li class="grid-6 selected right-border">Profile</li>
-          <li class="grid-6"><a href="https://github.com/centell/" rel="author" target="_blank">Github</a></li>
+          <li class="grid-6"><a href="https://github.com/devcjkim/" rel="author" target="_blank">Github</a></li>
         </ul>
       </nav>
       <main>
         <!--welcome-->
         <code>
-          <span class="font-white">Welcome to centell.github.io 1.01.3 LTS (Vue-cli 3.11.0)</span>
+          <span class="font-white">Welcome to devcjkim.github.io 1.01.3 LTS (Vue-cli 3.11.0)</span>
         </code>
         <!--whoami-->
         <code>
-          <span class="font-sky-blue">centell.github.io</span>
+          <span class="font-sky-blue">devcjkim.github.io</span>
           <span class="font-blue">
             git:(<span class="font-red">master</span>)</span> $ <span class="font-green">whoami
           </span>
@@ -36,7 +36,7 @@
         </code>
         <!--skills-->
         <code>
-          <span class="font-sky-blue">centell.github.io</span>
+          <span class="font-sky-blue">devcjkim.github.io</span>
           <span class="font-blue">
             git:(<span class="font-red">master</span>)
           </span>
@@ -55,7 +55,7 @@
         </code>
         <!--personal projects-->
         <code>
-          <span class="font-sky-blue">centell.github.io</span>
+          <span class="font-sky-blue">devcjkim.github.io</span>
           $ <span class="font-green">ls </span> <span class="font-white">personal_projects</span>
         </code>
         <code class="ls">
@@ -66,7 +66,7 @@
         </code>
         <!--end-->
         <code>
-          <span class="font-sky-blue">centell.github.io</span> $
+          <span class="font-sky-blue">devcjkim.github.io</span> $
         </code>
       </main>
     </section>

@@ -26,7 +26,7 @@ export default
   data() {
     return {
       meta: {
-        title: 'centell.github.io',
+        title: 'devcjkim.github.io',
         url: '/',
       },
     };
